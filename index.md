@@ -1,10 +1,3 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>WCH&Powellrandomizer</title>
-</head>
-<body>
 <script>
     // An array of URL's
     var randURLs = [
@@ -15,5 +8,3 @@
     var randURL = Math.floor(Math.random() * randURLs.length);
     window.location=randURLs[randURL];
 </script>
-</body>
-</html>
